@@ -5,7 +5,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <div className='hero'>
-        <video autoplay loop muted id="video">
+        <video autoPlay={true} loop muted id="video">
             <source src = {MainVideo} type = 'video/mp4'/>
         </video>
         <div className="hero-text">
